@@ -1,0 +1,65 @@
+@import "tailwindcss";
+.gradient-text {
+  background: linear-gradient(90deg, #06b6d4, #f472b6, #3b82f6, #06b6d4);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.8s, background 0.5s;
+}
+
+.gradient-text-hover {
+  background: linear-gradient(90deg, #fbbf24, #22d3ee, #a21caf, #fbbf24);
+  background-size: 200% 200%;
+  background-position: 100% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-title-1 {
+  background: linear-gradient(90deg, #06b6d4, #3b82f6);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.6s, background 0.5s;
+}
+.gradient-title-1-hover {
+  background: linear-gradient(90deg, #fbbf24, #22d3ee);
+  background-size: 200% 200%;
+  background-position: 100% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-title-2 {
+  background: linear-gradient(90deg, #f472b6, #06b6d4);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.6s, background 0.5s;
+}
+.gradient-title-2-hover {
+  background: linear-gradient(90deg, #a21caf, #fbbf24);
+  background-size: 200% 200%;
+  background-position: 100% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-title-3 {
+  background: linear-gradient(90deg, #3b82f6, #f472b6);
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.6s, background 0.5s;
+}
+.gradient-title-3-hover {
+  background: linear-gradient(90deg, #22d3ee, #a21caf);
+  background-size: 200% 200%;
+  background-position: 100% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
