@@ -25,4 +25,4 @@ Feel free to connect with me on [LinkedIn](https://linkedin.com/in/bhavesh-alawa
 
 ---
 
-© {year} Bhavesh Alawane. All rights reserved.
+© {2025} Bhavesh Alawane. All rights reserved.
