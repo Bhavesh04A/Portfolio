@@ -13,7 +13,7 @@ import buildaboxImg from "../assets/projects/buildabox.png";
 import campusconnectImg from "../assets/projects/campusconnect.jpeg";
 import foodrecipeImg from "../assets/projects/foodrecipe.png";
 import taskManagerImg from "../assets/projects/taskmanager.png";
-import financeVisualizerImg from "../assets/projects/financeVisualizer.png";
+import financeVisualizerImg from "../assets/projects/personalfinanceVisualizer.png";
 
 const techIcons: Record<string, React.ReactNode> = {
   React: <FaReact className="text-cyan-400" />,
