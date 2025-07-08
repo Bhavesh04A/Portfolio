@@ -4,17 +4,20 @@ import {
   FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3Alt,
 } from "react-icons/fa";
 import {
-  SiTypescript, SiMongodb, SiStripe, SiVite, SiTailwindcss, SiMysql,
+  SiTypescript, SiMongodb, SiStripe, SiVite, SiTailwindcss, SiMysql, SiNextdotjs,
 } from "react-icons/si";
 
+// Project images
 import medpalImg from "../assets/projects/medpal.png";
 import buildaboxImg from "../assets/projects/buildabox.png";
 import campusconnectImg from "../assets/projects/campusconnect.jpeg";
 import foodrecipeImg from "../assets/projects/foodrecipe.png";
 import taskManagerImg from "../assets/projects/taskmanager.png";
+import financeVisualizerImg from "../assets/projects/financevisualizer.png";
 
 const techIcons: Record<string, React.ReactNode> = {
   React: <FaReact className="text-cyan-400" />,
+  "Next.js": <SiNextdotjs className="text-black dark:text-white" />,
   "Node.js": <FaNodeJs className="text-green-400" />,
   JavaScript: <FaJs className="text-yellow-400" />,
   TypeScript: <SiTypescript className="text-blue-400" />,
@@ -64,6 +67,16 @@ function AnimatedHeader({ children }: { children: React.ReactNode }) {
 
 const projects = [
   {
+    title: "Finance Visualizer",
+    description:
+      "Modern personal finance dashboard for tracking expenses, visualizing spending, setting budgets, and gaining insights.",
+    tech: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Tailwind"],
+    github: "https://github.com/Bhavesh04A/finance-visualizer-frontend",
+    demo: "https://finance-visualizer-frontend.vercel.app/",
+    image: financeVisualizerImg, 
+    role: "Full Stack Developer",
+  },
+  {
     title: "MedPal",
     description:
       "AI-powered healthcare platform with symptom analysis, doctor booking, and real-time chatbot.",
@@ -111,7 +124,6 @@ const projects = [
     image: foodrecipeImg,
     role: "Full Stack Developer",
   },
-
 ];
 
 export default function Projects() {
