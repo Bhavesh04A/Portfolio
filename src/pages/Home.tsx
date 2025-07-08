@@ -176,7 +176,7 @@ export default function Home() {
             LinkedIn
           </motion.a>
           <motion.a
-            href="/My-Resume.pdf"
+            href="/Bhavesh-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 rounded-lg bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 hover:from-pink-500 hover:to-cyan-400 transition-colors text-white font-semibold shadow border border-cyan-400/20"
