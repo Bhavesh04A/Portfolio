@@ -19,9 +19,6 @@ This project showcases my work as a Full Stack Developer and AI Enthusiast.
 - Downloadable resume and social links
 - Clean code and accessible UI
 
-## 📬 Contact
-
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/bhavesh-alawane) or email: bhaveshalawane96@gmail.com
 
 ---
 
