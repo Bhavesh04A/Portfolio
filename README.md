@@ -21,7 +21,7 @@ This project showcases my work as a Full Stack Developer and AI Enthusiast.
 
 ## 📬 Contact
 
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/bhavesh-alawane) or email: bhaveshalawane96@gmail.com
+Feel free to connect with me on [LinkedIn]([https://linkedin.com/in/bhavesh-alawane](https://www.linkedin.com/in/bhavesh-alawane-80a2a52b4/)) or email: bhaveshalawane96@gmail.com
 
 ---
 
