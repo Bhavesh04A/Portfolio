@@ -67,16 +67,6 @@ function AnimatedHeader({ children }: { children: React.ReactNode }) {
 
 const projects = [
   {
-    title: "Finance Visualizer",
-    description:
-      "Modern personal finance dashboard for tracking expenses, visualizing spending, setting budgets, and gaining insights.",
-    tech: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Tailwind"],
-    github: "https://github.com/Bhavesh04A/finance-visualizer-frontend",
-    demo: "https://finance-visualizer-frontend.vercel.app/",
-    image: financeVisualizerImg, 
-    role: "Full Stack Developer",
-  },
-  {
     title: "MedPal",
     description:
       "AI-powered healthcare platform with symptom analysis, doctor booking, and real-time chatbot.",
@@ -94,6 +84,16 @@ const projects = [
     github: "https://github.com/Bhavesh04A/build-a-box-frontend",
     demo: "https://build-a-box-frontend.vercel.app/",
     image: buildaboxImg,
+    role: "Full Stack Developer",
+  },
+  {
+    title: "Finance Visualizer",
+    description:
+      "Modern personal finance dashboard for tracking expenses, visualizing spending, setting budgets, and gaining insights.",
+    tech: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Tailwind"],
+    github: "https://github.com/Bhavesh04A/finance-visualizer-frontend",
+    demo: "https://finance-visualizer-frontend.vercel.app/",
+    image: financeVisualizerImg, 
     role: "Full Stack Developer",
   },
   {
