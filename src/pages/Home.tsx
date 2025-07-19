@@ -175,7 +175,7 @@ export default function Home() {
           >
             LinkedIn
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href="/Bhavesh-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -184,7 +184,7 @@ export default function Home() {
             variants={fadeInUp}
           >
             Resume
-          </motion.a>
+          </motion.a> */}
         </motion.div>
         <motion.div
           className="flex flex-wrap justify-center gap-3"
