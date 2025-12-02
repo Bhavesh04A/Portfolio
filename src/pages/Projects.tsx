@@ -10,7 +10,7 @@ import {
 // Project images
 import medpalImg from "../assets/projects/medpal.png";
 import buildaboxImg from "../assets/projects/buildabox.png";
-import campusconnectImg from "../assets/projects/campusconnect.jpeg";
+import foodshareImg from "../assets/projects/foodshare.png";
 import foodrecipeImg from "../assets/projects/foodrecipe.png";
 import taskManagerImg from "../assets/projects/taskmanager.png";
 import financeVisualizerImg from "../assets/projects/personalfinanceVisualizer.png";
@@ -67,6 +67,17 @@ function AnimatedHeader({ children }: { children: React.ReactNode }) {
 
 const projects = [
   {
+    title: "FoodShare",
+    description:
+      "A full-stack food donation platform connecting restaurants, NGOs, and volunteers with real-time donations, QR-based verification, AI freshness scoring, dashboards, and role-based workflows.",
+    tech: ["React", "Node.js", "MongoDB", "Vite", "Tailwind"],
+    github: "https://github.com/Bhavesh04A/foodshare-frontend",
+    demo: "https://foodshare-frontend-three.vercel.app/",
+    image: foodshareImg,
+    role: "Full Stack Developer",
+  },
+
+  {
     title: "MedPal",
     description:
       "AI-powered healthcare platform with symptom analysis, doctor booking, and real-time chatbot.",
@@ -93,7 +104,7 @@ const projects = [
     tech: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Tailwind"],
     github: "https://github.com/Bhavesh04A/finance-visualizer-frontend",
     demo: "https://finance-visualizer-frontend.vercel.app/",
-    image: financeVisualizerImg, 
+    image: financeVisualizerImg,
     role: "Full Stack Developer",
   },
   {
@@ -107,15 +118,6 @@ const projects = [
     role: "Solo Project",
   },
   {
-    title: "Campus Connect",
-    description:
-      "Platform for college students to collaborate, share resources, and coordinate events.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Bhavesh04A/Campus-Connect",
-    image: campusconnectImg,
-    role: "Frontend Developer",
-  },
-  {
     title: "Food Recipe App",
     description:
       "Role-based recipe platform with user/chef dashboards and community features.",
@@ -125,6 +127,7 @@ const projects = [
     role: "Full Stack Developer",
   },
 ];
+
 
 export default function Projects() {
   return (
